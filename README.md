@@ -1,7 +1,7 @@
 SublimeLinter-contrib-hadolint
 ================================
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-hadolint.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-hadolint)
+[![Build Status](https://travis-ci.org/niksite/SublimeLinter-contrib-hadolint.svg?branch=master)](https://travis-ci.org/niksite/SublimeLinter-contrib-hadolint)
 
 This linter plugin for [SublimeLinter][docs] provides an interface to [hadolint](https://github.com/lukasmartinelli/hadolint/). It will be used with files that have the “Dockerfile” syntax.
 
