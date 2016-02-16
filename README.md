@@ -9,9 +9,9 @@ This linter plugin for [SublimeLinter][docs] provides an interface to [hadolint]
 SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here][installation].
 
 ### Linter installation
-Before using this plugin, you must ensure that `lukasmartinelli/hadolint` is pulled on your docker system. To pull `lukasmartinelli/hadolint`, do the following:
+Before using this plugin, you must ensure that `hadolint` is installed on your system. To install `hadolint`, just follow instructions from the following:
 
-1. docker pull lukasmartinelli/hadolint
+https://github.com/lukasmartinelli/hadolint#install
 
 **Note:** This plugin requires `hadolint` 0.1 or later.
 

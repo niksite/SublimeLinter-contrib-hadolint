@@ -16,10 +16,10 @@ from SublimeLinter.lint import Linter, util
 class Hadolint(Linter):
     """Provides an interface to hadolint."""
 
-    syntax = 'Dockerfile'
-    cmd = 'docker run --rm -i lukasmartinelli/hadolint'
+    syntax = 'dockerfile'
+    cmd = 'hadolint -i'
     executable = None
-    version_args = 'hadolint -v'
+    version_args = '-v'
     version_re = r'Haskell Dockerfile Linter v(?P<version>\d+\.\d+)'
     version_requirement = '>= 0.1'
     # L5 DL3005 Do not use apt-get upgrade or dist-upgrade.
