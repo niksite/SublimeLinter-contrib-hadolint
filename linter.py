@@ -24,6 +24,5 @@ class Hadolint(Linter):
     error_stream = util.STREAM_BOTH
     word_re = None
     defaults = {
-        '--ignore:,+': '',
         'selector': 'source.dockerfile'
     }
